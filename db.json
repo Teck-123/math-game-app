@@ -1,0 +1,105 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "level": "easy",
+      "operation": "addition",
+      "question": "4 + 8",
+      "answer": 12
+    },
+    {
+      "id": "2",
+      "level": "easy",
+      "operation": "multiplication",
+      "question": "7 * 10",
+      "answer": 70
+    },
+    {
+      "id": "3",
+      "level": "easy",
+      "operation": "subtraction",
+      "question": "9 - 3",
+      "answer": 6
+    },
+    {
+      "id": "4",
+      "level": "easy",
+      "operation": "division",
+      "question": "6 / 2",
+      "answer": 3
+    },
+    {
+      "id": "5",
+      "level": "medium",
+      "operation": "addition",
+      "question": "21 + 19",
+      "answer": 40
+    },
+    {
+      "id": "6",
+      "level": "medium",
+      "operation": "multiplication",
+      "question": "15 * 3",
+      "answer": 45
+    },
+    {
+      "id": "7",
+      "level": "medium",
+      "operation": "subtraction",
+      "question": "50 - 11",
+      "answer": 39
+    },
+    {
+      "id": "8",
+      "level": "medium",
+      "operation": "division",
+      "question": "49 / 7",
+      "answer": 7
+    },
+    {
+      "id": "9",
+      "level": "hard",
+      "operation": "addition",
+      "question": "151 + 104",
+      "answer": 255
+    },
+    {
+      "id": "10",
+      "level": "hard",
+      "operation": "multiplication",
+      "question": "88 * 3",
+      "answer": 264
+    },
+    {
+      "id": "11",
+      "level": "hard",
+      "operation": "division",
+      "question": "224 / 14",
+      "answer": 16
+    },
+    {
+      "id": "12",
+      "level": "hard",
+      "operation": "subtraction",
+      "question": "275 - 17",
+      "answer": 258
+    }
+  ],
+  "leaderboard": [
+    {
+      "id": "1",
+      "name": "Jamal",
+      "score": 7
+    },
+    {
+      "id": "2",
+      "name": "Annie",
+      "score": 11
+    },
+    {
+      "id": "3",
+      "name": "Eli",
+      "score": 5
+    }
+  ]
+}

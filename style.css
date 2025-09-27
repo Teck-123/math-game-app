@@ -1,0 +1,91 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(135deg, #a8edea, #fed6e3);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header { 
+    background-color: #20dbd8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+h1,h2,h3 {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], select {
+    padding: 10px;
+    font-size: large;
+    border-radius: 7px;
+}
+
+button {
+    margin-top: 20px;
+    font-size: large;
+    background-color: #5dc9f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+button:hover {
+    background-color: #3eb1ca;
+}
+
+#quiz-area {
+    margin-top: 30px;
+    font-size: large;
+}
+
+#feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#leaderboard table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#leaderboard th,td {
+    border: 2px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+#reward-display {
+    margin-top: 10px;
+    font-size: large;
+    color: #f20adf;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #d4d2d2;
+    font-size: larger;
+    color: #555;
+}

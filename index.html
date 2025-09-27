@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quiz Game App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Math Quiz Gaming App</h1>
+    <p>Practice addition, subtraction, multiplication and division in a fun and interactive way.</p>
+</header>
+ 
+    <main>
+        <section id="set-up">
+        <h2>Start Gaming</h2>
+        <label for="players-name">Enter your name</label>
+        <input type="text" id="players-name" placeholder="Your name">
+
+        <label for="level">Select Level:</label>
+        <select id="level">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+
+         <button id="start-btn" on-click="alert('Clicked!')">Start Quiz</button>
+            <p id="score">Score: 0</p>
+         </section>
+
+        <section id="quiz-area">
+            <p class="placeholder">Click "Start Quiz" to begin!</p>
+            <input type="number" id="answer" placeholder="Enter answer">
+            <button id="submit-btn">Submit answer</button>
+        </section>
+            <div id="feedback"></div>
+
+        <section id="leaderboard">
+            <h2>Leaderboard</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Player</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody id="leader-body"></tbody> 
+            </table>
+        </section>
+
+        <section id="rewards">
+            <h3>Rewards</h3>
+            <div id="reward-display"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>2025 Math Quiz Game | Built with love for learning</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

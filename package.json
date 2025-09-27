@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "install": "^0.13.0",
+    "json-server": "^1.0.0-beta.3",
+    "npm": "^11.6.0"
+  },
+  "name": "math-game-app",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teck-123/math-game-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Teck-123/math-game-app/issues"
+  },
+  "homepage": "https://github.com/Teck-123/math-game-app#readme"
+}
